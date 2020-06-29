@@ -36,7 +36,7 @@ if("geolocation" in navigator) {
   }
 }
 else {
-  villeChoisie = "saint-saulve";
+  villeChoisie = "Paris";
   recevoirTemperature(villeChoisie);
 }
 
@@ -47,7 +47,7 @@ changerDeVille.addEventListener('click', () => {
 });
 
 function erreur() {
-  villeChoisie = "Saint-Saulve";
+  villeChoisie = "Paris";
   recevoirTemperature(villeChoisie);
 }
 
